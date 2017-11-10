@@ -2,21 +2,13 @@
 
 for i in *ref
 do
-    muscle -in 4i -out $i.aln
-    hmmbuild ________
+    ../../../../muscle.exe -in $i -out $i.aln
+    ../../../../hmmer-3.1b2-cygwin64/binaries/hmmbuild $i.hmm $i.align
 done
 
 for i in *fasta
 do
-    hmmsearch #model1
-    hmmsearch #model2
-    hmmsearch #model3
+    ../../../../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout sigma.hits sigma.hmm $i
+    ../../../../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout sporecoat.hits sporecoat.hmm $i
+    ../../../../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout transporter.hits transporter.hmm $i
 done
-
-####Question 2####
-for line in infile:
-    if ">"
-        seqid=line
-    elif "/tkk"
-        print seqid
-        print line
