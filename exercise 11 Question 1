@@ -1,0 +1,16 @@
+#Import Packages
+#Question 1
+import pandas
+import numpy
+from scipy.optimize import minimize
+from scipy.stats import norm
+import scipy.integrate as spi
+from scipy.integrate import odeint
+import matplotlib.pyplot as plt
+import re
+import os
+from plotnine import *
+
+os.chdir("/Users/madelinebuynak/Exercise11_files/Problem1")
+#Sequence alignment
+./Exercise11_files -in "Arthrobacter.fasta" -out "Bacillus.fasta"
