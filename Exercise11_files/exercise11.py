@@ -14,3 +14,9 @@ do
 done
 
 ####Question 2####
+for line in infile:
+    if ">"
+        seqid=line
+    elif "/tkk"
+        print seqid
+        print line
