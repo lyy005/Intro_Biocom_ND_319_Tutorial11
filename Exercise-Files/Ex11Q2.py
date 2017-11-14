@@ -15,7 +15,7 @@ for line in infile:
     line=line.strip()
     if (line[0] == ">"):
         seqid=line
-    else (">" not in line):
+    else:
         if (re.search(Pat1, line)):
             out1.write(seqid + "\n")
             out1.write(line + "\n")
