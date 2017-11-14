@@ -16,10 +16,10 @@ for line in infile:
     if (line[0] == ">"):
         seqid=line
     else (">" not in line):
-        if (re.search(Pat1, line):
+        if (re.search(Pat1, line)):
             out1.write(seqid + "\n")
             out1.write(line + "\n")
-        elif (re.search(Pat2, line):
+        elif (re.search(Pat2, line)):
               out2.write(seqid + "\n")
               out2.write(line + "\n")
         else:
