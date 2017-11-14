@@ -1,4 +1,5 @@
 import re
+# unzip files in unix
 # open fastafile
 thefile=open('./Exercise11_files/Problem2/motifsort.fasta',"r")
 
@@ -45,6 +46,6 @@ for i in range(len(m2_id)):
 ofile.close()
 
 ofile = open("other.txt", "w")
-for i in range(len(m1_id)):
+for i in range(len(other_id)):
     ofile.write(other_id[i] + "\n" +other_seq[i] + "\n")
 ofile.close()
