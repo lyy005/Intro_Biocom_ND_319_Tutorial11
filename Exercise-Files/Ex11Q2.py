@@ -20,11 +20,11 @@ for line in infile:
             out1.write(seqid + "\n")
             out1.write(line + "\n")
         elif (re.search(Pat2, line)):
-              out2.write(seqid + "\n")
-              out2.write(line + "\n")
+            out2.write(seqid + "\n")
+            out2.write(line + "\n")
         else:
-              null.write(seqid + "\n")
-              null.write(line + "\n")
+            null.write(seqid + "\n")
+            null.write(line + "\n")
               
 #Close files
 infile.close()
