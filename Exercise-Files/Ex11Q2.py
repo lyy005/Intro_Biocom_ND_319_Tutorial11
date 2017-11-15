@@ -13,13 +13,15 @@ Pat2="AAQWWRNYGG"
 
 for line in infile:
     line=line.strip()
-    if (line[0] == ">"):
+    if line[0] == ">":
         seqid=line
     else:
-        if (re.search(Pat1, line)):
+        if Pat1 in in line:
+        #(re.search(Pat1, line))
             out1.write(seqid + "\n")
             out1.write(line + "\n")
-        elif (re.search(Pat2, line)):
+        elif if Pat2 in line: 
+        #(re.search(Pat2, line))
             out2.write(seqid + "\n")
             out2.write(line + "\n")
         else:
