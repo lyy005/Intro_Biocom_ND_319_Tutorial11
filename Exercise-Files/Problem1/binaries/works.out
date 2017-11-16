@@ -1,0 +1,131 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../sigma70hmm.hmm
+# target sequence database:        ../Roseobacter.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       sigma70  [M=70]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    5.4e-22   75.3   0.4    1.1e-21   74.3   0.4    1.6  1  tr|B7RH33|B7RH33_9RHOB  
+    1.2e-18   64.7   0.1    2.5e-18   63.6   0.1    1.6  1  tr|B7RGX5|B7RGX5_9RHOB  
+    2.2e-18   63.8   0.2    5.2e-18   62.6   0.2    1.7  1  tr|B7RH17|B7RH17_9RHOB  
+    4.7e-18   62.7   0.4    1.8e-17   60.9   0.1    2.0  2  tr|B7RI57|B7RI57_9RHOB  
+    4.8e-18   62.7   0.2    8.4e-18   61.9   0.2    1.4  1  tr|B7RJL9|B7RJL9_9RHOB  
+    3.7e-16   56.6   0.1    7.4e-16   55.7   0.1    1.5  1  tr|B7RH51|B7RH51_9RHOB  
+    7.7e-14   49.2   0.4    1.4e-13   48.4   0.4    1.4  1  tr|B7RSA6|B7RSA6_9RHOB  
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|B7RH33|B7RH33_9RHOB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.3   0.4   1.9e-24   1.1e-21       1      69 [.     437     506 ..     437     507 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 74.3 bits;  conditional E-value: 1.9e-24
+                 sigma70   1 lverylplvrriarrllgdgadaeDLvQegflrllraierfdpek.asfstwlyriarnaiidylRkarr 69 
+                             +ve++l+lv +ia++++++g ++ DL+Qeg+++l++a+++f+ ++ ++fst++++++r+ai + + +++r
+  tr|B7RH33|B7RH33_9RHOB 437 MVEANLRLVISIAKKYTNRGLQFLDLIQEGNIGLMKAVDKFEYRRgYKFSTYATWWIRQAITRSIADQAR 506
+                             589***************************************************************9998 PP
+
+>> tr|B7RGX5|B7RGX5_9RHOB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.6   0.1   4.2e-21   2.5e-18       1      68 [.      30      98 ..      30     100 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 63.6 bits;  conditional E-value: 4.2e-21
+                 sigma70  1 lverylplvrriarrllgdgadaeDLvQegflrllraierfdpek.asfstwlyriarnaiidylRkar 68
+                            l+++y +l  + a ++ ++ga + DL+Qe+ l+l++a+++fdp++ ++fst+++++++  i d++ +++
+  tr|B7RGX5|B7RGX5_9RHOB 30 LITAYMRLAISMAGKFKRYGAPMNDLIQEAGLGLMKAADKFDPDRgVRFSTYAVWWIKASIQDHVMRNW 98
+                            7999************************************************************99976 PP
+
+>> tr|B7RH17|B7RH17_9RHOB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.6   0.2   8.7e-21   5.2e-18       5      69 ..     274     338 ..     270     339 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 62.6 bits;  conditional E-value: 8.7e-21
+                 sigma70   5 ylplvrriarrllgdgadaeDLvQegflrllraierfdpekasfstwlyriarnaiidylRkarr 69 
+                               p+v++ a r+lgd+ +aeD++Q++++rl++ ++ ++   a++stwlyr++ n++ d+lR+++r
+  tr|B7RH17|B7RH17_9RHOB 274 LTPRVFGHAFRVLGDSSEAEDVTQDALMRLWKIAPDWRIGEAKVSTWLYRVVANLCTDRLRRRGR 338
+                             679**************************************99*******************987 PP
+
+>> tr|B7RI57|B7RI57_9RHOB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.9   0.1     3e-20   1.8e-17       7      69 ..      30      92 ..      24      93 .. 0.92
+   2 ?   -1.0   0.0      0.63   3.7e+02      38      54 ..     153     169 ..     150     172 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 60.9 bits;  conditional E-value: 3e-20
+                 sigma70  7 plvrriarrllgdgadaeDLvQegflrllraierfdpekasfstwlyriarnaiidylRkarr 69
+                              +++++ r+l+++a aeD +Q++f++++ +++r+  ++ s+ twl++iarn+ id+lR +++
+  tr|B7RI57|B7RI57_9RHOB 30 AKLFGVCLRVLNKRAAAEDAMQDTFVKIWNNADRYHSNGLSPMTWLITIARNTSIDRLRARKK 92
+                            67999**********************************77******************9875 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 0.63
+                 sigma70  38 ierfdpekasfstwlyr 54 
+                             ++rf  +    +twl r
+  tr|B7RI57|B7RI57_9RHOB 153 ADRFGVPLNTMRTWLRR 169
+                             57777777447888765 PP
+
+>> tr|B7RJL9|B7RJL9_9RHOB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.9   0.2   1.4e-20   8.4e-18       4      69 ..      12      76 ..      10      77 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 61.9 bits;  conditional E-value: 1.4e-20
+                 sigma70  4 rylplvrriarrllgdgadaeDLvQegflrllraierfdpekasfstwlyriarnaiidylRkarr 69
+                            ++lp +r++a +l+++ga a+D vQ+++++++ +i++f+   ++ ++wl++i+rn+ +   Rka+r
+  tr|B7RJL9|B7RJL9_9RHOB 12 EHLPAMRAFAISLTRNGAIADDMVQDTLVKAWTNIDKFEVG-TNMRAWLFTILRNTYYSSRRKANR 76
+                            69***************************************.69*******************998 PP
+
+>> tr|B7RH51|B7RH51_9RHOB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.7   0.1   1.2e-18   7.4e-16       2      66 ..      54     119 ..      53     122 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 55.7 bits;  conditional E-value: 1.2e-18
+                 sigma70   2 verylplvrriarrllgdgadaeDLvQegflrllraierfdpek.asfstwlyriarnaiidylRk 66 
+                             v+++l+l  +ia+ + g+g    ++++e++++l++a++rfdpek ++++t++++++r  i  y+ +
+  tr|B7RH51|B7RH51_9RHOB  54 VTSHLRLAAKIAMGYRGYGLPQAEVISEANVGLMQAVKRFDPEKgFRLATYAMWWIRASIQEYILR 119
+                             889**********************************************************99977 PP
+
+>> tr|B7RSA6|B7RSA6_9RHOB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.4   0.4   2.3e-16   1.4e-13       6      69 ..      42     105 ..      38     106 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 48.4 bits;  conditional E-value: 2.3e-16
+                 sigma70   6 lplvrriarrllgdgadaeDLvQegflrllraierfdpekasfstwlyriarnaiidylRkarr 69 
+                              ++++++a+r+l+++  ae+ +Q++++ ++r++ +    ++s + w+y i+rn++++ lR+ +r
+  tr|B7RSA6|B7RSA6_9RHOB  42 GRQLLGVAYRILRRQDLAEEALQDAMVQVWRKAGTQGAGSGSARGWIYAILRNRCLNILRDGKR 105
+                             689***********************************9999******************9776 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (70 nodes)
+Target sequences:                         4185  (1301909 residues searched)
+Passed MSV filter:                       119  (0.0284349); expected 83.7 (0.02)
+Passed bias filter:                      101  (0.0241338); expected 83.7 (0.02)
+Passed Vit filter:                        13  (0.00310633); expected 4.2 (0.001)
+Passed Fwd filter:                         7  (0.00167264); expected 0.0 (1e-05)
+Initial search space (Z):               4185  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 7594.47
+//
+[ok]
