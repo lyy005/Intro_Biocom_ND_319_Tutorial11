@@ -13,7 +13,7 @@ Pat1=r"AKKPRVZE"
 Pat2=r"AAQWWRNYGG"
 
 for line in infile:
-    line=line.strip()
+    line=line.strip() 
     if line[0] == ">":
         seqid=line
     else:
