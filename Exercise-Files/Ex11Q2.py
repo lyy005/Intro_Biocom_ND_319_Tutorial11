@@ -18,11 +18,9 @@ for line in infile:
         seqid=line
     else:
         if Pat1 in line:
-        #(re.search(Pat1, line))
             out1.write(seqid + "\n")
             out1.write(line + "\n")
         elif Pat2 in line: 
-        #(re.search(Pat2, line))
             out2.write(seqid + "\n")
             out2.write(line + "\n")
         else:
