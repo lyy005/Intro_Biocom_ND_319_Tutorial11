@@ -1,0 +1,13 @@
+Madelines-MacBook:Desktop madelinebuynak$ ./muscle3.8.31_i86darwin64 -in Roseobacter.fasta -out Roseobacter.align
+
+MUSCLE v3.8.31 by Robert C. Edgar
+
+http://www.drive5.com/muscle
+This software is donated to the public domain.
+Please cite: Edgar, R.C. Nucleic Acids Res 32(5), 1792-97.
+
+Roseobacter 4185 seqs, max length 3284, avg  length 311
+00:02:36    151 MB(2%)  Iter   1  100.00%  K-mer dist pass 1
+00:02:38    151 MB(2%)  Iter   1  100.00%  K-mer dist pass 2
+00:15:36  2320 MB(27%)  Iter   1  100.00%  Align node       
+00:15:39  2340 MB(27%)  Iter   1  100.00%  Root alignment
