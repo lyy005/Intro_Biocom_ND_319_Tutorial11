@@ -1,0 +1,71 @@
+./hmmsearch --tblout sigma.hits sigma.hmm Roseobacter.fasta
+cat sigma.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout transporter.hits transporter.hmm Roseobacter.fasta
+cat transporter.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sporecoat.hits sporecoat.hmm Roseobacter.fasta
+cat sporecoat.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sigma.hits sigma.hmm Arthrobacter.fasta
+cat sigma.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout transporter.hits transporter.hmm Arthrobacterr.fasta
+cat transporter.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sporecoat.hits sporecoat.hmm Arthrobacter.fasta
+cat sporecoat.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sigma.hits sigma.hmm Bacilus.fasta
+cat sigma.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout transporter.hits transporter.hmm Bacillus.fasta
+cat transporter.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sporecoat.hits sporecoat.hmm Bacillus.fasta
+cat sporecoat.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sigma.hits sigma.hmm Clostridium.fasta
+cat sigma.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout transporter.hits transporter.hmm Clostridium.fasta
+cat transporter.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sporecoat.hits sporecoat.hmm Clostridium.fasta
+cat sporecoat.hits | grep -v "#" | wc -l
+
+../hmmsearch --tblout sigma.hits sigma.hmm Flavobacterium.fasta
+cat sigma.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout transporter.hits transporter.hmm Flavobacterium.fasta
+cat transporter.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sporecoat.hits sporecoat.hmm Flavobacterium.fasta
+cat sporecoat.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sigma.hits sigma.hmm Limnohabitans.fasta
+cat sigma.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout transporter.hits transporter.hmm Limnohabitans.fasta
+cat transporter.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sporecoat.hits sporecoat.hmm Limnohabitans.fasta
+cat sporecoat.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sigma.hits sigma.hmm Rhizobium.fasta
+cat sigma.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout transporter.hits transporter.hmm Rhizobium.fasta
+cat transporter.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sporecoat.hits sporecoat.hmm Rhizobium.fasta
+cat sporecoat.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sigma.hits sigma.hmm Verrucomicrobia.fasta
+cat sigma.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout transporter.hits transporter.hmm Verrucomicrobia.fasta
+cat transporter.hits | grep -v "#" | wc -l
+
+./hmmsearch --tblout sporecoat.hits sporecoat.hmm Verrucomicrobia.fasta
+cat sporecoat.hits | grep -v "#" | wc -l
