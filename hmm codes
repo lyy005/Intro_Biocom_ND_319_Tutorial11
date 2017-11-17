@@ -1,0 +1,3 @@
+./hmmbuild sigma.hmm sigma.align
+./hmmbuild transporter.hmm transporter.align
+./hmmbuild transporter.hmm transporter.align
