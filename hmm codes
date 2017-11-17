@@ -1,0 +1,3 @@
+./hmmer-3.1b2-macosx-intel/binaries/hmmbuild sigma.hmm sigma.align
+./hmmer-3.1b2-macosx-intel/binaries/hmmbuild transporter.align
+./hmmer-3.1b2-macosx-intel/binaries/hmmbuild sporecoat.hmm sporecoat.align

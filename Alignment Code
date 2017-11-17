@@ -1,0 +1,4 @@
+#Alignment Code
+Madelines-MacBook:Desktop madelinebuynak$ ./muscle3.8.31_i86darwin64 -in transporter.ref -out transporter.align
+Madelines-MacBook:Desktop madelinebuynak$ ./muscle3.8.31_i86darwin64 -in sporecoat.ref -out sporecoat.align
+Madelines-MacBook:Desktop madelinebuynak$ ./muscle3.8.31_i86darwin64 -in sigma.ref -out sigma.align
